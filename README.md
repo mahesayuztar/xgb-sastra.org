@@ -3,6 +3,8 @@
 ## Deskripsi Singkat
 Proyek ini bertujuan untuk mengembangkan model klasifikasi teks pada kumpulan artikel bertema bahasa dan budaya. Model ini memanfaatkan teknologi Doc2Vec untuk representasi teks dan algoritma XGBoost untuk klasifikasi. Proyek ini juga mencakup analisis preprocessing data, pembelajaran, dan evaluasi performa model.
 
+Project ini bertujuan mengukur efisiensi preprocessing melalui Doc2Vec disandingkan dengan model XGBoost untuk klasifikasi jenis artikel pada website sastra jawa https://www.sastra.org/. Dataset didapat dari web scraping manual terhadap 10 kategori dalam bagian Bahasa & Budaya pada tanggal 20 Desember 2024. Preprocessing dilakukan dengan casefolding, punctuation removal, character mapping, tokenizing, stopwords removal, stemming, dan Doc2Vec. Stopwords memakai corpus dari github https://github.com/bimarakajati/Javanese-and-SundaneseStopwords. Character mapping dan stemming menggunakan list buatan sendiri berdasar dari data scraping. Hasil dari project ini adalah model XGBoost dengan akurasi lebih dari 97%.
+
 ## Screenshot dan Visualisasi
 Berikut adalah beberapa visualisasi yang tersedia dalam proyek:
 
